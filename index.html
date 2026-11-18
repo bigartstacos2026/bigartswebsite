@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      IMPORTANT SEO NOTE
+
+      Page-specific SEO metadata is handled by react-helmet-async
+      inside each React page (see src/pages/*.tsx) and baked into
+      static HTML per route by vite-react-ssg at build time.
+
+      Do NOT add page-specific here:
+      - <title>
+      - meta description
+      - Open Graph tags
+      - Twitter tags
+
+      Adding them here would make every route fall back to the
+      same default metadata instead of its own.
+    -->
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+</head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
